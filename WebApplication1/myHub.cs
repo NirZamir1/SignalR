@@ -2,7 +2,7 @@
 
     public class myHub:Hub
     {
-        public void Move(string message)
+        public void message(string message)
         {
             Clients.Others.SendAsync("message", message) ;
         }
